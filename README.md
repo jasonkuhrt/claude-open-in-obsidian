@@ -30,9 +30,11 @@ is set to the author's vault. Fork the repository and change it to yours.
 
 ## Which links get a button
 
-A Markdown link whose target ends in `.md` and is a path relative to the
-vault, or an absolute path inside it. Links to URLs and to dot folders get
-none. A reply gets at most six buttons.
+A Markdown link whose target ends in `.md` and is an absolute path inside the
+vault. A path relative to the vault also gets one, but only in a session whose
+working directory is in the vault: in any other project a relative link names
+that project's file. Links to URLs and to dot folders get none. A reply gets at
+most six buttons.
 
 ## Develop
 
